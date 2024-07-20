@@ -6,9 +6,8 @@ Mentor:Neela santhosh
 
 Overview of the Project
 
-
 it looks like you have provided the HTML structure of a web page. Here's a breakdown and some suggestions for improvement:
-HTML Structure: Your HTML is well-structured with appropriate use of semantic tags (<nav>, <div>, <h1>, <p>, <button>, etc.) which is good for accessibility and SEO.
+HTML Structure: Your HTML is well-structured with appropriate use of semantic tags which is good for accessibility and SEO.
 Meta Tags: You have included <meta> tags for charset, viewport, and title, which are essential for defining character encoding, responsive behavior, and page title.
 CSS and Fonts:
 You have linked an external CSS file (style.css) for styling, which is recommended for separating content and presentation.
