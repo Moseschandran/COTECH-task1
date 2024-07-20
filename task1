@@ -1,0 +1,613 @@
+/@index.html/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-link">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            <p class="side-navbar-link"><a href="">Feedback</a></p>
+        </div>
+
+    </div>
+    <!--header-->
+    <div class="header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>with our stunning Collection</p>
+            <button>Shop Now</button>
+        </div>
+        <div>
+            <img class="header-img" src="c:\Users\ASHWIN\Downloads\static\fas.jpg" alt="">
+        </div>
+    </div>
+    <!--service-->
+    <div class="service">
+        <div>
+            <h2>We Provide Best</h2>
+            <h2>Customer Experience</h2>
+        </div>
+        <div class="service-container-1">
+            <p>|| we ensure that our customer have the best shopping experience</p>
+        </div>
+
+    </div>
+    <div class="service-container-2">
+        <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Satisfaction Guarantee</h4>
+            <P>Iure consequuntur obcaecati sapiente maxime! Alias ipsa odit vitae dolore dolorum fugit.</P>
+        </div>
+        <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>New Arrivel Everyday</h4>
+            <P>Iure consequuntur obcaecati sapiente maxime! Alias ipsa odit vitae dolore dolorum fugit.</P>
+        </div>
+        <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Fast &Free Shipping</h4>
+            <P>Iure consequuntur obcaecati sapiente maxime! Alias ipsa odit vitae dolore dolorum fugit.</P>
+        </div>
+    </div>
+    </div>
+    <div style="padding: 10px;">
+        <h2>New Arrival</h2>
+    </div>
+    <div class="new-arrival">
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash2.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash4.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash3.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash5.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div style="padding: 10px;">
+        <h2>Most Wanted</h2>
+    </div>
+    <div class="new-arrival">
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash10.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash8.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash7.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="c:\Users\ASHWIN\Downloads\fash9.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <!--News-->
+    <div class="news">
+        <h2>Join our New Letter</h2>
+        <P>Signup for our email newletter to get exclusive discount and update and more</P>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam repudiandae libero at non
+                    accusamus sapiente voluptatem nesciunt ipsa rerum aut.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>
+
+/@collection.html/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-link">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            <p class="side-navbar-link"><a href="">Feedback</a></p>
+        </div>
+
+    </div>
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-nagnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\shirt.jpg" alt="">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\fantacy.jpg" alt="">
+                <p>Fantasycollar</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\wed.jpg" alt="">
+                <p>wedding dress</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\tshirt.jpg" alt="">
+                <p>T shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\cotton.jpg" alt="">
+                <p>cotton shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\saree.jpg" alt="">
+                <p>Sarees</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\kurta.jpg" alt="">
+                <p>Kurta</p>
+            </div>
+            <div class="products-box">
+                <img src="c:\Users\ASHWIN\Downloads\suit.jpg" alt="">
+                <p>suit formalwear</p>
+            </div>
+
+
+
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingText">Nostra</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam repudiandae
+                        libero at non
+                        accusamus sapiente voluptatem nesciunt ipsa rerum aut.</p>
+                    <div class="footer-icon-container">
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <p>@2024 Nostra.com</p>
+        </div>
+        <script src="collection.js"></script>
+</body>
+
+</html>
+
+/@contact.html/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-link">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            <p class="side-navbar-link"><a href="">Feedback</a></p>
+        </div>
+
+    </div>
+    <!--contact-->
+    <section class="contact">
+        <h2 class="title">Contact<span> Us</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" required placeholder="Full Name">
+                <input type="Email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Subject For" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+            <button>Send Message<i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+    </section>
+   
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam repudiandae libero at non
+                    accusamus sapiente voluptatem nesciunt ipsa rerum aut.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+    <script src="demo.js"></script>
+</body>
+
+</html>
+/@style.css/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.navbar-link {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #1d232c;
+}
+
+.navbar-link a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+/* side navbar*/
+.side-navbar {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+}
+
+.side-navbar-link {
+    margin-bottom: 30px;
+}
+
+.side-navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1d232c;
+    color: white;
+    cursor: pointer;
+}
+.service{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.service-container-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+.new-arrival{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: #1d232c;
+    position: absolute;
+    top: 50%;
+    left:10%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.news{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px ;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border:solid black 3px;
+}
+.news button{
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1d232c;
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1d232c;
+    color: #f2f4f7;
+}
+.product-section{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin:auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.products-box img{
+    border-radius: 10px;
+}
+.contact{
+    padding: 80px;
+    text-align: center;
+    justify-content: center;
+}
+.input-box input{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    border-color: solid black 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+ form button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+    
+
+form textarea{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+/*media query*/
+
+@media screen and (max-width:700px) {
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .navbar-link {
+        display: none;
+    }
+    .header-img{
+        display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+}
+
